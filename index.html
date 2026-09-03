@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anmol Soni — CSE Student, AI & Data Analytics</title>
+  <meta name="description" content="Portfolio of Anmol Soni, a Computer Science & Engineering student specializing in AI & Data Analytics — projects, skills, and achievements." />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style_fixed.css" />
+</head>
+<body>
+  <canvas id="bg-network" aria-hidden="true"></canvas>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#home" class="navbar__brand">AS<span class="navbar__brand-dot">.</span></a>
+
+      <nav class="navbar__nav" id="primary-nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#extracurricular" class="nav-link">Activities</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="assets/resume/Anmol_Soni_Resume.pdf" class="btn btn--small btn--primary navbar__cta" target="_blank" rel="noopener">Resume</a>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <img src="assets/images/profile.jpg" alt="Anmol Soni" class="hero__avatar" />
+      <div class="hero__inner">
+        <div class="hero__content">
+          <span class="hero__status"><i></i>Open to Internships</span>
+          <p class="hero__eyebrow">B.Tech, Computer Science &amp; Engineering</p>
+          <h1 class="hero__name">Anmol Soni</h1>
+          <p class="hero__specialization">Specializing in AI &amp; Data Analytics</p>
+          <p class="hero__tagline">
+            I like taking a problem apart until it's simple, then building something that works.
+            Right now that means learning software development, data analysis, and applied AI
+            one project at a time.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="assets/resume/Anmol_Soni_Resume.pdf" class="btn btn--ghost" target="_blank" rel="noopener">Download Resume</a>
+          </div>
+
+          <div class="hero__social">
+            <a href="https://github.com/anmolsoni-01" target="_blank" rel="noopener" aria-label="GitHub profile" class="social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.96-3.2.7-3.87-1.54-3.87-1.54-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/-anmol-soni-" target="_blank" rel="noopener" aria-label="LinkedIn profile" class="social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+            </a>
+            <a href="mailto:anmolsonipersonal@gmail.com" aria-label="Send an email" class="social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.8 6.1 7.8-6.1H4.2Zm15.8 1.4-7.3 5.7a1.5 1.5 0 0 1-1.84 0L3.6 7.4v11.1h16.4V7.4Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <svg class="signal-graphic" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="210" cy="210" r="180" class="signal-ring signal-ring--1" />
+            <circle cx="210" cy="210" r="140" class="signal-ring signal-ring--2" />
+            <g class="signal-plot">
+              <polyline points="60,260 110,230 150,270 195,180 240,220 285,140 330,190 365,120" class="signal-line" />
+              <circle cx="60" cy="260" r="4" class="signal-node" style="--d:0"/>
+              <circle cx="110" cy="230" r="4" class="signal-node" style="--d:1"/>
+              <circle cx="150" cy="270" r="4" class="signal-node" style="--d:2"/>
+              <circle cx="195" cy="180" r="4" class="signal-node" style="--d:3"/>
+              <circle cx="240" cy="220" r="4" class="signal-node" style="--d:4"/>
+              <circle cx="285" cy="140" r="4" class="signal-node" style="--d:5"/>
+              <circle cx="330" cy="190" r="4" class="signal-node" style="--d:6"/>
+              <circle cx="365" cy="120" r="6" class="signal-node signal-node--end" style="--d:7"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-value">8.7</span>
+          <span class="hero__stat-label">CGPA at LPU</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-value">30+</span>
+          <span class="hero__stat-label">LeetCode Problems Solved</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-value">3</span>
+          <span class="hero__stat-label">Chess Medals, District Level</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-value">1</span>
+          <span class="hero__stat-label">Certification Earned</span>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-hidden="true"><span></span></a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="section__inner">
+        <div class="section__heading">
+          <p class="section__eyebrow">// 01 — Identity</p>
+          <h2>About</h2>
+        </div>
+        <div class="about">
+          <div class="about__body">
+            <p>
+              I am a Computer Science and Engineering student at Lovely Professional University,
+              currently specializing in Artificial Intelligence and Data Analytics. My academic
+              foundation spans core programming languages, data analysis, and applied AI concepts,
+              which I continue to strengthen through structured coursework and independent projects.
+            </p>
+            <p>
+              My technical development is grounded in practical application rather than theory
+              alone. I have built and delivered a command-line game in Python, a real-time digital
+              clock in JavaScript, and contributed to a team-developed IoT-based food freshness
+              detection system built on Arduino and multiple sensor modules. Each project has
+              reinforced my understanding of logical structuring, debugging, and translating
+              requirements into functional systems.
+            </p>
+            <p>
+              Beyond academics, I have served as the founder and captain of my school's chess
+              team for three years, leading its progression from regional to district-level
+              competition and later representing Ambala district at the Haryana state-level
+              championship. This experience, alongside competitive boxing at the district level,
+              has shaped my approach to leadership, discipline, and adaptability, and reinforced
+              the value of teamwork and clear communication — qualities I carry into both academic
+              and technical environments.
+            </p>
+          </div>
+
+          <dl class="spec-sheet">
+            <div class="spec-sheet__row">
+              <dt>Focus</dt>
+              <dd>AI &amp; Data Analytics</dd>
+            </div>
+            <div class="spec-sheet__row">
+              <dt>Programme</dt>
+              <dd>B.Tech CSE, LPU</dd>
+            </div>
+            <div class="spec-sheet__row">
+              <dt>Leadership</dt>
+              <dd>Chess Captain, 3 Years</dd>
+            </div>
+            <div class="spec-sheet__row">
+              <dt>Status</dt>
+              <dd>Open to Internships</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--tinted" id="skills">
+      <div class="section__inner">
+        <div class="section__heading">
+          <p class="section__eyebrow">// 02 — Stack</p>
+          <h2>Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3 class="skill-group__title">Languages</h3>
+            <ul class="skill-tags">
+              <li>Python</li><li>C</li><li>C++</li><li>JavaScript</li><li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group__title">Data &amp; AI</h3>
+            <ul class="skill-tags">
+              <li>Data Analysis</li><li>NumPy</li><li>Pandas</li><li>Matplotlib</li><li>Applied AI Concepts</li><li>Structured Problem-Solving</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group__title">Technologies</h3>
+            <ul class="skill-tags">
+              <li>HTML</li><li>CSS</li><li>Arduino</li><li>Canva</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group__title">Databases &amp; Tools</h3>
+            <ul class="skill-tags">
+              <li>MySQL</li><li>MongoDB</li><li>Git</li><li>GitHub</li><li>Figma</li>
+            </ul>
+          </div>
+          <div class="skill-group skill-group--wide">
+            <h3 class="skill-group__title">Soft Skills</h3>
+            <ul class="skill-tags skill-tags--row">
+              <li>Leadership</li><li>Teamwork &amp; Collaboration</li><li>Adaptability</li><li>Communication</li><li>Problem-Solving</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="section__inner">
+        <div class="section__heading">
+          <p class="section__eyebrow">// 03 — Builds</p>
+          <h2>Projects</h2>
+        </div>
+
+        <div class="project-grid">
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <span class="project-card__tag">Team Project</span>
+              <span class="project-card__date">Dec 2025 – Jan 2026</span>
+            </div>
+            <h3 class="project-card__title">Food Freshness &amp; Spoilage Detection System</h3>
+            <p class="project-card__stack">Arduino · MQ Gas Sensor · DHT11 · RTC · HC-05 Bluetooth</p>
+            <ul class="project-card__list">
+              <li>Built a system to monitor and detect spoilage in fruits, vegetables, and other food items.</li>
+              <li>Classified food conditions into Safe, Caution, and Danger using sensor-based thresholds.</li>
+              <li>Integrated an MQ gas sensor, DHT11, RTC module, buzzer, LED, and HC-05 Bluetooth with Arduino.</li>
+              <li>Enabled real-time mobile alerts for unsafe food conditions.</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <span class="project-card__tag">Solo Project</span>
+              <span class="project-card__date">Dec 2025</span>
+            </div>
+            <h3 class="project-card__title">Stone-Paper-Scissor</h3>
+            <p class="project-card__stack">Python</p>
+            <ul class="project-card__list">
+              <li>Built an interactive command-line Stone-Paper-Scissor game with player input and computer-generated moves.</li>
+              <li>Implemented game logic to determine win, loss, and draw outcomes.</li>
+              <li>Added a continuous game loop to support multiple rounds.</li>
+            </ul>
+            <div class="project-card__actions">
+              <a href="https://github.com/anmolsoni-01/stone-paper-scissor" class="btn btn--small btn--ghost" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <span class="project-card__tag">Solo Project</span>
+              <span class="project-card__date">Dec 2025</span>
+            </div>
+            <h3 class="project-card__title">Digital Clock</h3>
+            <p class="project-card__stack">HTML · CSS · JavaScript</p>
+            <ul class="project-card__list">
+              <li>Developed a real-time digital clock using JavaScript to dynamically display hours, minutes, and seconds.</li>
+              <li>Implemented continuous time updates to keep the clock synchronized with the user's system time.</li>
+              <li>Designed a responsive and visually clean interface using HTML and CSS.</li>
+            </ul>
+            <div class="project-card__actions">
+              <a href="https://github.com/anmolsoni-01/1st_year-projects/blob/main/digital-clock.html" class="btn btn--small btn--ghost" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section class="section section--tinted" id="certifications">
+      <div class="section__inner">
+        <div class="section__heading">
+          <p class="section__eyebrow">// 04 — Credentials</p>
+          <h2>Certifications</h2>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__main">
+            <h3 class="cert-card__title">Mechanics &amp; Physics Fundamentals</h3>
+            <p class="cert-card__subtitle">PHYS101: Introduction to Mechanics</p>
+            <dl class="cert-card__meta">
+              <div><dt>Provider</dt><dd>Saylor Academy</dd></div>
+              <div><dt>Duration</dt><dd>33 hours</dd></div>
+              <div><dt>Score</dt><dd>94.12%</dd></div>
+              <div><dt>Date</dt><dd>February 7, 2026</dd></div>
+            </dl>
+          </div>
+          <div class="certificate-images">
+            <a href="assets/certificates/certificate-page-1.png" target="_blank" rel="noopener">
+              <img src="assets/certificates/certificate-page-1.png"
+              alt="Mechanics & Physics Fundamentals Certificate - Page 1">
+            </a>
+
+            <a href="assets/certificates/certificate-page-2.png" target="_blank" rel="noopener">
+              <img src="assets/certificates/certificate-page-2.png"
+             alt="Mechanics & Physics Fundamentals Certificate - Page 2">
+  </a>
+</div>>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section class="section" id="achievements">
+      <div class="section__inner">
+        <div class="section__heading">
+          <p class="section__eyebrow">// 05 — Record</p>
+          <h2>Achievements</h2>
+        </div>
+        <div class="record-grid">
+          <div class="record-item">
+            <p class="record-item__kicker">Academic</p>
+            <h3 class="record-item__title">Highest O Grade in Mathematics</h3>
+            <p class="record-item__desc">Achieved the highest O grade in Mathematics in both completed academic semesters.</p>
+          </div>
+          <div class="record-item">
+            <p class="record-item__kicker">LeetCode</p>
+            <h3 class="record-item__title">30+ Problems Solved</h3>
+            <p class="record-item__desc">Sustained practice in algorithmic thinking and structured problem-solving.</p>
+          </div>
+          <div class="record-item">
+            <p class="record-item__kicker">Projects</p>
+            <h3 class="record-item__title">2 Independent Python Projects</h3>
+            <p class="record-item__desc">Designed and developed end-to-end, including one deployed for public access.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXTRA-CURRICULAR ============ -->
+    <section class="section section--tinted" id="extracurricular">
+      <div class="section__inner">
+        <div class="section__heading">
+          <p class="section__eyebrow">// 06 — Beyond Code</p>
+          <h2>Extra-Curricular</h2>
+        </div>
+        <div class="record-grid">
+          <div class="record-item">
+            <p class="record-item__kicker">Chess</p>
+            <h3 class="record-item__title">3 Bronze Medals</h3>
+            <p class="record-item__desc">Earned in competitive chess tournaments at the district level, Ambala.</p>
+          </div>
+          <div class="record-item">
+            <p class="record-item__kicker">Chess</p>
+            <h3 class="record-item__title">Team Captain, 3 Years</h3>
+            <p class="record-item__desc">Founded and captained the school chess team, leading its progression from regional to district-level competition.</p>
+          </div>
+          <div class="record-item">
+            <p class="record-item__kicker">Chess</p>
+            <h3 class="record-item__title">State-Level Competitor</h3>
+            <p class="record-item__desc">Represented Ambala district at the Haryana state-level chess championship.</p>
+          </div>
+          <div class="record-item">
+            <p class="record-item__kicker">Boxing</p>
+            <h3 class="record-item__title">District-Level Competitor</h3>
+            <p class="record-item__desc">Competed in boxing at the district level, Ambala.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education">
+      <div class="section__inner">
+        <div class="section__heading">
+          <p class="section__eyebrow">// 07 — Timeline</p>
+          <h2>Education</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <p class="timeline__date">Aug 2025 – Present</p>
+              <h3 class="timeline__title">Lovely Professional University</h3>
+              <p class="timeline__subtitle">B.Tech, Computer Science &amp; Engineering (AI &amp; Data Analytics) · Phagwara, Punjab</p>
+              <p class="timeline__stat">CGPA: 8.7</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <p class="timeline__date">May 2024 – Mar 2025</p>
+              <h3 class="timeline__title">Govt. Model Public School</h3>
+              <p class="timeline__subtitle">Higher Secondary Education, Class 12 · Naraingarh, Haryana</p>
+              <p class="timeline__stat">Percentage: 82%</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <p class="timeline__date">May 2022 – Mar 2023</p>
+              <h3 class="timeline__title">D.A.V Public School</h3>
+              <p class="timeline__subtitle">Secondary Education, Class 10 · Naraingarh, Haryana</p>
+              <p class="timeline__stat">Percentage: 88%</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--tinted" id="contact">
+      <div class="section__inner">
+        <div class="section__heading">
+          <p class="section__eyebrow">// 08 — Connect</p>
+          <h2>Contact</h2>
+        </div>
+
+        <div class="contact">
+          <div class="contact__info">
+            <p class="contact__lead">
+              I'm looking for internship opportunities where I can keep learning and contribute to
+              real projects. Feel free to reach out.
+            </p>
+            <div class="contact__links">
+              <a href="mailto:anmolsonipersonal@gmail.com" class="contact__link">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.8 6.1 7.8-6.1H4.2Zm15.8 1.4-7.3 5.7a1.5 1.5 0 0 1-1.84 0L3.6 7.4v11.1h16.4V7.4Z"/></svg>
+                anmolsonipersonal@gmail.com
+              </a>
+              <a href="https://github.com/anmolsoni-01" class="contact__link" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.96-3.2.7-3.87-1.54-3.87-1.54-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+                github.com/anmolsoni-01
+              </a>
+              <a href="https://linkedin.com/in/-anmol-soni-" class="contact__link" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+                linkedin.com/in/-anmol-soni-
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="contact-form__honeypot"><label>Leave this field empty: <input name="bot-field" /></label></p>
+
+            <div class="contact-form__field">
+              <label for="cf-name">Your Name</label>
+              <input type="text" id="cf-name" name="name" placeholder="e.g. Priya Sharma" required />
+            </div>
+            <div class="contact-form__field">
+              <label for="cf-email">Your Email</label>
+              <input type="email" id="cf-email" name="email" placeholder="e.g. priya@example.com" required />
+            </div>
+            <div class="contact-form__field">
+              <label for="cf-subject">Subject</label>
+              <input type="text" id="cf-subject" name="subject" placeholder="e.g. Internship Opportunity" />
+            </div>
+            <div class="contact-form__field">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" rows="4" placeholder="Tell me a bit about the opportunity..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary contact-form__submit">Send Message</button>
+            <p class="contact-form__status" id="contactFormStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>&copy; <span id="year"></span> Anmol Soni. Built from scratch with HTML, CSS &amp; JavaScript.</p>
+      <a href="#home" class="footer__top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
